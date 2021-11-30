@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:wght@300;400;500&display=swap');
+
+:root{
+  --purple : #822659;
+  --lightPurple : #E36BAE;
+}
+
+*{
+  font-family: 'Roboto';
+}
+
+body{
+  background-color: #E5E5E5;
+}
+
+/* Navigation Bar */
+#navBar{
+  position: fixed;
+  background-color: white;
+  width: 110%;
+  height: 55px;
+  left: -1px;
+  top: -1px;
+  z-index: 9999999999999999999;
+  box-shadow: 0px 5px 15px 0px r  gba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+}
+
+#kiri{
+  width: 800px;
+  height: inherit;
+  float: left;
+}
+
+#navBarFirst{
+  border: 1px solid green;
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#search{
+  border: 1px solid var(--lightPurple);
+  border-radius: 20px;
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
+}
+
+#search img{
+  padding: 8px;
+}
+
+#search input{
+  border: none;
+  height: 30px;
+  width: 140px;
+  font-size: 13.5px;
+}
+
+#search input:focus{
+  outline: none;
+}
+
+#kotakMenu{
+  width: 386px;
+  height: inherit;
+  margin-left: 50px;
+  float: left;
+}
+
+.menu{
+  width: 106px;
+  height: 70;
+  padding: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+.menu a{
+  color: var(--lightPurple);
+}
+
+a{
+  text-decoration: none;
+}
+
+#kanan{
+  width: 90px;
+  height: inherit;
+  float: right;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Booking Ticket System - BTS</title>
+
+    <link rel="icon" href="../Logo Web.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="newAcc.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="header"><b>Buat Akun</b></div>
+      <form action="accountCreated.html" method="get">
+        <div class="inputBox">
+          <input id="email" type="email" name="email" placeholder="Email" autofocus>
+        </div>
+        <div class="inputBox">
+          <div class="inputNama">
+            <input id="nama-depan" type="text" name="nama-depan" placeholder="Nama Depan">
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="inputNama">
+            <div id="boxKanan">
+              <input id="nama-belakang" type="text" name="nama-belakang" placeholder="Nama Belakang">
+            </div>
+          </div>
+        </div>
+        <div class="inputBox">
+          <input id="uname" type="text" name="uname" placeholder="Username">
+        </div>
+        <div class="inputBox">
+          <input id="no-telp" type="tel" name="telpon" placeholder="No. Handphone">
+        </div>
+        <div class="inputBox">
+          <input id="password" type="password" name="password" placeholder="Password" minlength="8">
+        </div>
+        <div id="inputButton">
+          <input id="submit-btn" type="submit" name="submitBtn" value="Buat Akun">
+        </div>
+      </form>
+    </div>
+
+    <script src="function.js"></script>
+  </body>
+</html>

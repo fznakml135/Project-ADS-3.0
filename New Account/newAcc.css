@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:wght@300;400;500&display=swap');
+
+:root{
+  --purple : #822659;
+  --lightPurple : #E36BAE;
+}
+
+*{
+  font-family: 'Roboto';
+}
+
+body::after{
+  content: "";
+  background-color: var(--purple);
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: -120px;
+}
+
+#container{
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: absolute;
+  left: 39%;
+  top: 19%;
+}
+
+#header{
+  color: var(--purple);
+  font-size: 32px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.inputBox input{
+  border: 1px solid var(--lightPurple );
+  border-radius: 7px;
+  font-size: 13.5px;
+  width: 350px;
+  height: 37px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.inputNama input{
+  width: 165px;
+  float: left;
+}
+
+#boxKanan input{
+  margin-left: 6px;
+}
+
+input::-webkit-input-placeholder{
+  color: black;
+  opacity: 0.3;
+  font-size: 13.5px;
+}
+
+#inputButton input{
+  background-color: var(--lightPurple);
+  color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  font-size: 14px;
+  width: 150px;
+  height: 58px;
+  position: absolute;
+  left: 135px;
+  margin-top: 13px;
+}
+
+#inputButton input:hover{
+  background-color: var(--purple);
+  cursor: pointer;
+}
+
+#kontener{
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  left: 35%;
+  top: 33%;
+}
+
+#kepala{
+  color: var(--purple);
+  font-size: 27px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+#kontener img{
+  margin-top: 20px;
+  margin-left: 210px;
+}

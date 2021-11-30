@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:wght@300;400;500&display=swap');
+
+:root{
+  --purple : #822659;
+  --lightPurple : #E36BAE;
+}
+
+*{
+  font-family: 'Roboto';
+}
+
+body{
+  background-color: #E5E5E5;
+}
+
+/* Navigation Bar */
+#navBar{
+  position: fixed;
+  background-color: white;
+  width: 101%;
+  height: 55px;
+  left: -1px;
+  top: -1px;
+  z-index: 9999999999999999999;
+  box-shadow: 0px 5px 15px 0px r  gba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+}
+
+#kiri{
+  width: 800px;
+  height: inherit;
+  float: left;
+}
+
+#navBarFirst{
+  border: 1px solid green;
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#search{
+  border: 1px solid var(--lightPurple);
+  border-radius: 20px;
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
+}
+
+#search img{
+  padding: 8px;
+}
+
+#search input{
+  border: none;
+  height: 30px;
+  width: 140px;
+  font-size: 13.5px;
+}
+
+#search input:focus{
+  outline: none;
+}
+
+#kotakMenu{
+  width: 386px;
+  height: inherit;
+  margin-left: 50px;
+  float: left;
+}
+
+.menu{
+  width: 106px;
+  height: 70;
+  padding: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+.menu a{
+  color: var(--lightPurple);
+}
+
+a{
+  text-decoration: none;
+}
+
+#kanan{
+  width: 90px;
+  height: inherit;
+  float: right;
+}
+
+/* Beranda */
+#sinopsis{
+  background-image: url('image/Eternals.jpeg');
+  background-size: 100%;
+  width: 1349px;
+  height: 365px;
+  margin-left: -8px;
+  margin-top: 100px;
+  clear: both;
+}
+
+#kotakTulisan{
+  width: 420px;
+  height: 250px;
+  position: absolute;
+  top: 160px;
+  left: 160px;
+}
+
+#judul{
+  color: #ffffff;
+  font-size: 37px;
+  font-weight: bolder;
+}
+
+#tulisan{
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+#button button{
+  border: none;
+  border-radius: 5px;
+  background-color: var(--lightPurple);
+  font-size: 12px;
+  color: #ffffff;
+  width: 90px;
+  height: 40px;
+  margin-top: 8px;
+}
+
+#button button:hover{
+  background-color: var(--purple);
+  cursor: pointer;
+}
+
+.movies{
+  width: 1259px;
+  height: 315px;
+  margin-top: 20px;
+  margin-left: 60px;
+  padding-left: 20px;
+}
+
+.judulHeader{
+  color: var(--purple);
+  font-size: 28px;
+  font-weight: bold;
+  width: 200px;
+  float: left;
+}
+
+.kotakMovies{
+  border-radius: 15px;
+  width: 180px;
+  height: 221px;
+  margin-right: 25px;
+  float: left;
+  box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+}
+
+.kotakMovies:hover{
+  width: 190px;
+  height: 231px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+
+#movies1{
+  background-image: url('image/Eternals.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  clear: both;
+}
+
+#movies2{
+  background-image: url('image/Shang Chi.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#movies3{
+  background-image: url('image/Losmen Bu Broto.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#movies4{
+  background-image: url('image/Encanto.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#movies5{
+  background-image: url('image/Venom 2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#movies6{
+  background-image: url('image/Nussa.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#comingSoon1{
+  background-image: url('image/Spider Man No Way Home Poster.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  clear: both;
+}
+
+#comingSoon2{
+  background-image: url('image/Resident Evil 2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#comingSoon3{
+  background-image: url('image/Teka Teki Tika.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#comingSoon4{
+  background-image: url('image/The Boss Baby 2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#comingSoon5{
+  background-image: url('image/Ghostbuster Afterlife.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#comingSoon6{
+  background-image: url('image/Back Stage.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.movies a button{
+  border: none;
+  border-radius: 30px;
+  background-color: var(--lightPurple);
+  font-size: 12px;
+  color: #ffffff;
+  width: 60px;
+  height: 30px;
+  margin-right: 57px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  float: right;
+}
+
+.movies a button:hover{
+  background-color: var(--purple);
+  cursor: pointer;
+}

@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:wght@300;400;500&display=swap');
+
+:root{
+  --purple : #822659;
+  --lightPurple : #E36BAE;
+}
+
+*{
+  font-family: 'Roboto';
+}
+
+body{
+  background-color: #E5E5E5;
+}
+
+/* Navigation Bar */
+#navBar{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 55px;
+  left: -1px;
+  top: -1px;
+  z-index: 9999999999999999999;
+  box-shadow: 0px 5px 15px 0px r  gba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+}
+
+#kiri{
+  width: 800px;
+  height: inherit;
+  float: left;
+}
+
+#navBarFirst{
+  border: 1px solid green;
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#search{
+  border: 1px solid var(--lightPurple);
+  border-radius: 20px;
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
+}
+
+#search img{
+  padding: 8px;
+}
+
+#search input{
+  border: none;
+  height: 30px;
+  width: 140px;
+  font-size: 13.5px;
+}
+
+#search input:focus{
+  outline: none;
+}
+
+#kotakMenu{
+  width: 386px;
+  height: inherit;
+  margin-left: 50px;
+  float: left;
+}
+
+.menu{
+  width: 106px;
+  height: 70;
+  padding: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+.menu a{
+  color: var(--lightPurple);
+}
+
+a{
+  text-decoration: none;
+}
+
+#kanan{
+  width: 90px;
+  height: inherit;
+  float: right;
+}
+
+
+#headerPoster1{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('image/header/Spider Man No Way Home.jpeg');
+  background-size: 100%;
+  background-position: center;
+  width: 1346px;
+  height: 300px;
+  margin-left: -8px;
+  margin-top: 55px;
+  clear: both;
+}
+
+#headerPoster2{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('image/header/Resident Evil 2.jpg');
+  background-size: 100%;
+  background-position: center;
+  width: 1346px;
+  height: 300px;
+  margin-left: -8px;
+  margin-top: 55px;
+  clear: both;
+}
+
+#headerPoster3{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('image/header/Teka Teki Tika.jpeg');
+  background-size: 100%;
+  background-position: center;
+  width: 1346px;
+  height: 300px;
+  margin-left: -8px;
+  margin-top: 55px;
+  clear: both;
+}
+
+#headerPoster4{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('image/header/The Boss Baby 2.jpg');
+  background-size: 100%;
+  background-position: center;
+  width: 1346px;
+  height: 300px;
+  margin-left: -8px;
+  margin-top: 55px;
+  clear: both;
+}
+
+#headerPoster5{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('image/header/Ghostbuster Afterlife.jpeg');
+  background-size: 100%;
+  background-position: center;
+  width: 1346px;
+  height: 300px;
+  margin-left: -8px;
+  margin-top: 55px;
+  clear: both;
+}
+
+#headerPoster6{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('image/header/Back Stage.jpg');
+  background-size: 100%;
+  background-position: center;
+  width: 1346px;
+  height: 300px;
+  margin-left: -8px;
+  margin-top: 55px;
+  clear: both;
+}
+
+#headerPoster7{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('image/header/The Kings Man.jpg');
+  background-size: 100%;
+  background-position: center;
+  width: 1346px;
+  height: 300px;
+  margin-left: -8px;
+  margin-top: 55px;
+  clear: both;
+}
+
+#button button{
+  border: none;
+  border-radius: 5px;
+  background-color: var(--lightPurple);
+  font-size: 20px;
+  color: #ffffff;
+  width: 300px;
+  height: 50px;
+  margin-left: 90px;
+  margin-top: 8px;
+}
+
+#button button:hover{
+  background-color: var(--purple);
+  cursor: pointer;
+}
+
+.kotakPoster{
+  border-radius: 15px;
+  width: 300px;
+  height: 430px;
+  margin-left: 90px;
+  margin-top: -240px;
+  z-index: 4;
+}
+
+.kotakPoster2{
+  border-radius: 15px;
+  width: 300px;
+  height: 400px;
+  margin-left: 90px;
+  margin-top: -240px;
+  z-index: 4;
+}
+
+.kotakPoster6{
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  margin-left: 90px;
+  margin-top: -240px;
+  z-index: 4;
+}
+
+.kotakPoster7{
+  border-radius: 15px;
+  width: 300px;
+  height: 320px;
+  margin-left: 90px;
+  margin-top: -240px;
+  z-index: 4;
+}
+
+#coverPoster1{
+  background-image: url('image/Spider Man No Way Home Poster.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#coverPoster2{
+  background-image: url('image/Resident Evil 2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#coverPoster3{
+  background-image: url('image/Teka Teki Tika.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#coverPoster4{
+  background-image: url('image/The Boss Baby 2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#coverPoster5{
+  background-image: url('image/Ghostbuster Afterlife.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#coverPoster6{
+  background-image: url('image/Back Stage.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#coverPoster7{
+  background-image: url('image/The Kings Man.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#judulPoster{
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 500;
+  position: absolute;
+  left: 430px;
+  top: 290px;
+}
+
+#keterangan{
+  color: var(--purple);
+  font-size: 25px;
+  width: 800px;
+  height: 50px;
+  position: absolute;
+  left: 430px;
+  top: 370px;
+  padding-top: 3px;
+}
+
+#keteranganUsia{
+  font-weight: 600;
+  margin-right: 20px;
+  float: left;
+}
+
+#clockIcon{
+  margin-top: 1.5px;
+  margin-right: 5px;
+  float: left;
+}
+
+#kotakSinopsis{
+  background-color: #ffffff;
+  border-radius: 10px;
+  clear: both;
+  width: 700px;
+  height: 120px;
+  position: absolute;
+  left: 430px;
+  top: 420px;
+  padding: 20px;
+  box-shadow: 0px 5px 15px 0px r  gba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+}
+
+#subHeader{
+  color: var(--purple);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#contentSubHeader{
+  line-height: 19px;
+  font-size: 13.5px;
+  margin-top: 10px;
+}
+
+#detailMovies{
+  background-color: #ffffff;
+  border-radius: 10px;
+  clear: both;
+  width: 700px;
+  height: 190px;
+  position: absolute;
+  left: 430px;
+  top: 605px;
+  padding: 20px;
+  box-shadow: 0px 5px 15px 0px r  gba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.5);
+}

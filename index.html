@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Booking Ticket System - BTS</title>
+
+    <link rel="icon" href="Logo Web.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <div id="kontainer">
+      <div id="title">
+        <h2>
+          <font style="color: #E36BAE">B</font>ooking <font style="color: #E36BAE">T</font>icket
+          <br>
+          <font style="color: #E36BAE">S</font>ystem
+        </h2>
+        <i>Do it from home...</i>
+      </div>
+
+      <div id="formLogin">
+        <form action="Main Page/mainPage.html" method="post" name="inputLogin">
+          <input id="uname" type="text" name="emailOrUsername" placeholder="Email atau Username" autofocus>
+          <input id="pass" type="password" name="password" placeholder="Password" minlength="8">
+          <input id="submit-btn" class="tombol" type="submit" name="submit" value="Login">
+          <div id="lupa">
+            <a href="lupaSandi.html">Lupa kata sandi?</a>
+          </div>
+          <div id="garis"></div>
+          <div id="newAccount">
+            <a href="New Account/newAccount.html">
+              <button type="button" name="buatAkun">Buat Akun</button>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="function.js"></script>
+  </body>
+</html>

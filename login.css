@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Roboto:wght@300;400;500&display=swap');
+
+:root{
+  --purple : #822659;
+  --lightPurple : #E36BAE;
+}
+
+*{
+  font-family: 'Roboto';
+}
+
+body::after{
+  content: "";
+  background-image: url(image/background.jfif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-blend-mode: overlay;
+  background-color: var(--purple);
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: -120px;
+}
+
+#kontainer{
+  /* border: 1px solid blue; */
+  height: 590px;
+  margin: 50px;
+}
+
+#title{
+  /* border: 1px solid red; */
+  width: 500px;
+  height: 230px;
+  margin-left: 150px;
+  margin-top: 180px;
+  color: #ffffff;
+  float: left;
+}
+
+#title h2{
+  font-size: 60px;
+  padding: 0;
+}
+
+#title i{
+  position: relative;
+  top: -30px;
+  font-size: 20px;
+}
+
+#formLogin{
+  border-radius: 15px;
+  background-color: #ffffff;
+  width: 270px;
+  height: 270px;
+  margin-top: 170px;
+  margin-right: 140px;
+  padding-top: 10px;
+  padding-left: 10px;
+  float: right;
+}
+
+input{
+  border: 1px solid var(--lightPurple );
+  border-radius: 7px;
+  margin: 5px;
+  width: 240px;
+  height: 37px;
+  font-size: 13.5px;
+  padding-left: 10px;
+}
+
+input::-webkit-input-placeholder{
+  color: black;
+  opacity: 0.3;
+  font-size: 13.5px;
+}
+
+input[type="submit"]{
+  background-color: var(--lightPurple);
+  color: #ffffff;
+  width: 254px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"]:hover{
+  background-color: var(--purple);
+  cursor: pointer;
+}
+
+#lupa a{
+  margin-left: 94px;
+  color: var(--lightPurple);
+  text-decoration: none;
+}
+
+#garis{
+  border: 1px solid #737373;
+  opacity: 0.45;
+  width: 250px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+#newAccount a button{
+  background-color: var(--lightPurple);
+  color: #ffffff;
+  margin-left: 85px;
+  border: none;
+  border-radius: 7px;
+  margin-top: 18px;
+  width: 100px;
+  height: 40px;
+  font-size: 12px;
+}
+
+#newAccount a button:hover{
+  background-color: var(--purple);
+  cursor: pointer;
+}
